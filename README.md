@@ -1,6 +1,5 @@
 # Aplikasi Real Count KPU Pemilu 2019 (Ionic Framework)
-
-Aplikasi 
+> Aplikasi ini hanya digunakan sebagai pembelajaran saja, bukan aplikasi resmi dari instansi terkait.
 
 
 My System Information
