@@ -1,1 +1,1 @@
-# Aplikasi Real Count KPU Pemilu 2019.
+# Aplikasi Real Count KPU Pemilu 2019 (Ionic Framework)
