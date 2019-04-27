@@ -1,0 +1,41 @@
+<ion-toolbar color="medium" class="top-toolbar">    
+    <ion-item color="medium" lines="none">
+        <ion-label>
+            <p>Terakhir Update</p>
+            <h2>{{terakhir_update | date:"dd/MM/yyyy HH:mm:ss"}}</h2>
+        </ion-label>
+    </ion-item>    
+    <ion-buttons slot="primary">
+        <ion-button color="warning" (click)="getData()">
+            <ion-icon slot="icon-only" name="refresh"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+</ion-toolbar>
+
+<ion-content>
+
+    <ion-card class="card-presentase">
+        <ion-card-content text-center>
+            <h3>Total Suara Masuk <b>{{presentase.progress}}%</b></h3>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card class="card-paslon">
+        <ion-card-header>
+            <ion-card-title text-center>#01</ion-card-title>
+            <ion-card-subtitle text-center>Ir. H. JOKO WIDODO<br/>Prof. Dr. (H.C) KH. MA'RUF AMIN</ion-card-subtitle>
+            <h1>{{presentase.calon_01}}%</h1>
+        </ion-card-header>
+        <ion-img src="./assets/capres-01.png"></ion-img>
+    </ion-card>
+
+    <ion-card class="card-paslon">
+        <ion-card-header>
+            <ion-card-title text-center>#02</ion-card-title>
+            <ion-card-subtitle text-center>H. PRABOWO SUBIANTO<br/>H. SANDIAGA SALAHUDIN UNO</ion-card-subtitle>
+            <h1>{{presentase.calon_02}}%</h1>
+        </ion-card-header>
+        <ion-img src="./assets/capres-02.png"></ion-img>
+    </ion-card>
+</ion-content>
+

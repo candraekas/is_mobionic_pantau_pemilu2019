@@ -1,0 +1,56 @@
+.top-toolbar
+{
+	ion-item
+	{
+		background-color: transparent;
+		ion-label
+		{
+			margin: 0;
+		}
+	}
+}
+
+.card-paslon
+{
+    position: relative;
+    text-align: center;
+
+    ion-card-header
+    {
+    	height: 32vh;
+    	background-color: rgba(0, 0, 0, 0.5);
+    	z-index: 1000;
+    	padding: 0;
+		ion-card-subtitle
+		{
+			font-size: 3.5vw;
+		    position: absolute;
+		    top: 30%;
+		    width: 100%;
+		    color: #fff;
+		}
+		ion-card-title
+		{
+		    top: 20%;
+		    position: absolute;
+		    width: 100%;
+		    font-weight: bold;
+		    color: #fff;
+		}
+		h1
+		{
+		    top: 45%;
+		    position: absolute;
+		    width: 100%;
+		    font-weight: bold;
+		    color: #fff;
+		    font-size: 13vw;
+		}
+    }
+	ion-img
+	{
+		width: 100%;
+		position: absolute;
+		top: 0;
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "produk_pantau_pemilu",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

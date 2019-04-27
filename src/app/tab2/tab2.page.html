@@ -1,0 +1,40 @@
+<ion-content>
+	
+	<ion-card class="list-menu">
+        <ion-card-header>
+            <ion-card-subtitle>Pantau Perhitungan Lainnya</ion-card-subtitle>
+        </ion-card-header>		
+  		<ion-card-content>
+			<ion-list>
+				<ion-item (click)="openUnderConstruction()" detail>
+					<ion-icon name="person" slot="start"></ion-icon>
+				  	<ion-label>DPR RI</ion-label>
+				</ion-item>
+				<ion-item (click)="openUnderConstruction()" detail>
+					<ion-icon name="person" slot="start"></ion-icon>
+				  	<ion-label>DPD</ion-label>
+				</ion-item>
+				<ion-item (click)="openUnderConstruction()" detail>
+					<ion-icon name="person" slot="start"></ion-icon>
+				  	<ion-label>DPRD Provinsi</ion-label>
+				</ion-item>
+				<ion-item (click)="openUnderConstruction()" detail>
+					<ion-icon name="person" slot="start"></ion-icon>
+				  	<ion-label>DPRD Kabupaten / Kota</ion-label>
+				</ion-item>
+		  	</ion-list>	
+  		</ion-card-content>
+	</ion-card>	
+
+	<ion-card class="list-menu">
+		<ion-card-content>
+			<ion-list>
+				<ion-item (click)="openTentang()" detail>
+					<ion-icon name="information-circle-outline" slot="start"></ion-icon>
+				  	<ion-label>Tentang</ion-label>
+				</ion-item>
+			</ion-list>
+		</ion-card-content>
+	</ion-card>
+
+</ion-content>
